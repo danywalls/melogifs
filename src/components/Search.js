@@ -6,9 +6,9 @@ import TagList from "./TagList";
 export default function Search({ filter, update }) {
   return (
     <SearchArea>
-      <leyend></leyend>
+      <h2>Search</h2>
       <SearchInput value={filter} onChange={(e) => update(e.target.value)} />
-      <TagList />
+      <TagList update={update} />
     </SearchArea>
   );
 }

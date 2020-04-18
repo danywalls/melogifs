@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Tag = styled.span`
+  cursor: pointer;
   font-size: 14px;
-
   display: inline-block;
   background: #4362ba;
   padding: 0 15px;

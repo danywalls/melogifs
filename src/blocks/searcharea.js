@@ -1,17 +1,14 @@
 import styled from "styled-components";
 
 const SearchArea = styled.div`
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    legend {
-        font-size: 36px;
-         color: #fff;
-     font-weight: 800;
-    text-align: center;
-    margin-bottom: 59px;
-    }
-}
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  h2 & {
+    font-size: xx-large;
+    margin: 8px;
+  }
 `;
 
 export default SearchArea;
