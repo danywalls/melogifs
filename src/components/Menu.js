@@ -6,7 +6,7 @@ export default function Menu() {
   return (
     <Menul>
       <h1>
-        <Link to="/home">Search</Link>
+        <Link to="/home">Gifs Search</Link>
       </h1>
     </Menul>
   );
