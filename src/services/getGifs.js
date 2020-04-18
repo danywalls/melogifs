@@ -10,7 +10,6 @@ export function getGifs({ tag = "teentitans" } = {}) {
       if (Array.isArray(data)) {
         return data.map((image) => {
           const { id, title, images } = image;
-          console.log(image);
           const { url } = images.downsized_still;
           return { id, url, title };
         });

@@ -4,7 +4,7 @@ import { GifContainerBig } from "../blocks/gif-container";
 import { getGifById } from "../services/getGifs";
 
 export default function Detail(props) {
-  const [response, updateImageUrl] = useState("");
+  const [gif, updateImageUrl] = useState("");
   const { id } = props.params;
   useEffect(() => {
     getGifById({ id }).then((response) => updateImageUrl(response));
@@ -12,8 +12,8 @@ export default function Detail(props) {
 
   return (
     <GifContainerBig>
-      <img src={response.url} alt={response.url} />
-      <p>{response.title}</p>
+      <img src={gif.url} alt={gif.url} />
+      <p>{gif.title}</p>
     </GifContainerBig>
   );
 }
