@@ -5,12 +5,9 @@ import React from "react";
 export default function Menu() {
   return (
     <Menul>
-      <li>
+      <h1>
         <Link to="/home">Search</Link>
-      </li>
-      <li>
-        <Link to="/about">About</Link>
-      </li>
+      </h1>
     </Menul>
   );
 }

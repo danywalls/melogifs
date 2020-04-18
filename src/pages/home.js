@@ -13,7 +13,14 @@ export default function Home() {
       setGifs(result);
     });
   }, [filter]);
-
+  if (gifs.length === 0) {
+    return (
+      <div>
+        <p>Please wait.</p>
+        <h2>Loading..</h2>
+      </div>
+    );
+  }
   return (
     <div>
       <Search filter={filter} update={updateFilter} />

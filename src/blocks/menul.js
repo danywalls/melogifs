@@ -1,23 +1,16 @@
 import styled from "styled-components";
 
-const Menul = styled.ul`
-  display: flex;
-  justify-content: space-between;
-  width: 28%;
-  font-family: monospace;
-  font-size: xx-large;
-  list-style-type: none;
-  li {
-    color: white;
-    transition: color 1.2s;
-    a {
-      color: white;
-      transition: color 1.2s;
-    }
-    a:hover {
-      color: red;
-      opacity: 0.8;
-    }
+const Menul = styled.div`
+  background: #263275;
+  width: 100%;
+  text-align: center;
+  h1 {
+    padding-top: 25px;
+  }
+  a {
+    color: #efdd47;
+    text-decoration: none;
+    font-size: larger;
   }
 `;
 

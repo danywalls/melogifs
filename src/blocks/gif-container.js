@@ -21,6 +21,7 @@ export const GifContainer = styled.div`
 `;
 
 export const GifContainerBig = styled(GifContainer)`
+  padding-top: 10px;
   grid-template-rows: auto 10%;
   img {
     width: 200px;

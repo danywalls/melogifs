@@ -1,9 +1,9 @@
 body {
   display: grid;
   height: 100vh;
+  margin: 0;
 }
 #root {
   display: grid;
-  grid-template-rows: 40px auto 10px;
   place-items: center;
 }
