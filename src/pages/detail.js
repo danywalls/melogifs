@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { GifContainerBig } from "../blocks/gif-container";
+import Share from "../components/Share";
 import { getGifById } from "../services/getGifs";
 
 export default function Detail(props) {
@@ -14,6 +15,7 @@ export default function Detail(props) {
     <GifContainerBig>
       <img src={gif.url} alt={gif.url} />
       <p>{gif.title}</p>
+      <Share text={gif.title}></Share>
     </GifContainerBig>
   );
 }
