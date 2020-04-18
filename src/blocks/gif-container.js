@@ -4,6 +4,7 @@ export const GifContainer = styled.div`
   display: grid;
   grid-template-rows: 60% 20%;
   place-items: center;
+  cursor: pointer;
   img {
     width: 50px;
     height: 50px;
