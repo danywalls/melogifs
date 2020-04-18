@@ -7,6 +7,7 @@ export default function About() {
         It is a small demo using react hooks thanks for @midudev for his great
         video.
       </p>
+      <a href="https://www.youtube.com/watch?v=QBLbXgeXMU8">Learn React ;)</a>
     </>
   );
 }
